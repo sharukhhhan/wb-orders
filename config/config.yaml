@@ -1,0 +1,14 @@
+http:
+  port: :8083
+  shutdownTimeout: 5s
+
+log:
+  level: "debug"
+
+kafka:
+  brokers: "localhost:9092"
+  group_id: "order_consumer_group"
+  topic: "orders"
+
+cache:
+  ttl: 5m

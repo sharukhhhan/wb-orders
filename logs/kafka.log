@@ -1,0 +1,5 @@
+{"level":"error","msg":"failed to handle message: %!w(*fmt.wrapError=\u0026{failed to save order: order with this uid already exists 0x13838a0})","time":"2024-12-03 19:37:15"}
+{"level":"error","msg":"Kafka error: order validation error: Key: 'Order.OrderUID' Error:Field validation for 'OrderUID' failed on the 'required' tag","time":"2024-12-03 19:58:18"}
+{"level":"info","msg":"order with order_uid=b563feb7b2b84b6test added","time":"2024-12-03 21:11:05"}
+{"level":"error","msg":"Kafka error: consumer error: GroupCoordinator: localhost:9092: ApiVersionRequest failed: Local: Timed out: probably due to broker version \u003c 0.10 (see api.version.request configuration) (after 10010ms in state APIVERSION_QUERY)","time":"2024-12-03 21:41:53"}
+{"level":"error","msg":"Kafka error: consumer error: localhost:9092/bootstrap: ApiVersionRequest failed: Local: Timed out: probably due to broker version \u003c 0.10 (see api.version.request configuration) (after 10009ms in state APIVERSION_QUERY)","time":"2024-12-03 21:49:03"}
