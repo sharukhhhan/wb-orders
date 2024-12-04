@@ -1,5 +1,10 @@
 # Order Management Service
 
+## Link to the video review: 
+```
+https://drive.google.com/file/d/1PorwB7Hhex19ooaV-6DE-jODGzh4jDPl/view?usp=sharing
+```
+
 ## Overview
 
 The **Order Management Service** is a scalable backend application designed to handle order data efficiently using modern technologies. It integrates with **Apache Kafka** for message processing, uses **PostgreSQL** for data persistence, and incorporates **BigCache** for fast in-memory caching. The service is structured with clean architecture principles, making it easy to maintain and extend.
